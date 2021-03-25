@@ -12,6 +12,7 @@ const User = require('../../models/User');
 // @desc    Get user data using the token to auth
 // @access  Public
 // adding the 'auth' middleware makes this a protected route
+// =================================================================
 // router.get('/', auth, (req, res) => res.send('auth route'));
 router.get('/', auth, async (req, res) => {
   try {
@@ -28,6 +29,7 @@ router.get('/', auth, async (req, res) => {
 // @route   POST api/auth
 // @desc    Authenticate user & get token
 // @access  Public
+// =================================================================
 router.post(
   '/',
   [
