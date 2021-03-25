@@ -1,0 +1,29 @@
+{
+  "name": "mtk-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "NODE_ENV=development nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Stanger",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
